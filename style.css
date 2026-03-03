@@ -232,3 +232,22 @@ h1 {
     color: var(--primary);
     border-bottom: 2px solid var(--primary);
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr; /* Empilha formulário e info */
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
